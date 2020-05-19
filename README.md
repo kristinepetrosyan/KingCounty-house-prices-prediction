@@ -49,11 +49,11 @@ This question will explore which part of the King county is most expensive, how 
 
 Average price calculated for each zip code and after grouping the prices by zip codes, the `mean ()` function is used instead of `sum ()` to reach better results. 
 
-<img>
+<img src = images/Screenshot3.png>
 
 Direction column created to search how is average price distributed by directions. A scatter plot created with avaliable latitude and longitude data. To specify the four directions the scatter plot used as a base.
 
-<img src= images/Screen%20Shot%202020-05-17%20at%2010.28.41%20PM.png>
+<img src= images/Screenshot2.png>
 
 
 Four directions(NW, NE, SE, SE) calculated for each latitude and longitude combination and added to the dataframe. To analyze location's effect on house prices 'zipcode_king_county.geojson' is loaded to work with folium. It helped to create a heatmap with `Choropleth()` function showing average price for each zip code.  
