@@ -53,12 +53,12 @@ Average price calculated for each zip code and after grouping the prices by zip 
 
 Direction column created to search how is average price distributed by directions. A scatter plot created with avaliable latitude and longitude data. To specify the four directions the scatter plot used as a base.
 
-<img src=>
+<img src= images/Screen%20Shot%202020-05-17%20at%2010.28.41%20PM.png>
 
 
 Four directions(NW, NE, SE, SE) calculated for each latitude and longitude combination and added to the dataframe. To analyze location's effect on house prices 'zipcode_king_county.geojson' is loaded to work with folium. It helped to create a heatmap with `Choropleth()` function showing average price for each zip code.  
 
-<img src >
+<img src=images/Screen%20Shot%202020-05-17%20at%2010.28.41%20PM.png >
                  
 
 #### Q1: Findings/Insights/Recommendations
@@ -87,10 +87,7 @@ Four directions(NW, NE, SE, SE) calculated for each latitude and longitude combi
 ## Q2: When Is The Best Time To Buy A House?
 This question aims to answer which season and month is more affordable in terms of buying a house, as well as months and seasons role in predicting house prices. In order to answer our second question the 'month' and 'season' columns which are previously created and added to the dataframe are used. Furthermore, `groupby()` function is used to group data in months and seasons. During grouping the price by months and seasons, the `mean ()` function is used to reach unbiased results.
 
-<img >
-
-
-<img>
+<img src = images/Screen%20Shot%202020-05-17%20at%2010.58.45%20PM.png >
 
 #### Q2: Findings/Insights/Recommendations
 
